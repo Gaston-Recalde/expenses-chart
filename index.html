@@ -2,42 +2,97 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
   
-  <title>Frontend Mentor | Expenses chart component</title>
+  <title>Expenses chart component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  My balance
-  $921.48
+  <main class="main">
 
-  Spending - Last 7 days
+    <header class="header">
+      <div class="header__info">
+        <p class="header__p">My balance</p>
+        <h4 class="header__h4">$921.48</h4>
+      </div>
+      <div class="header__logo">
+        <img src="./images/logo.svg" alt="Logo">
+      </div>
+    </header>
 
-  mon
-  tue
-  wed
-  thu
-  fri
-  sat
-  sun
+    <div class="data">
+      <h3 class="data__h3">Spending - Last 7 days</h3>
 
-  Total this month
-  $478.33
+      <div class="data__grafos">
 
-  +2.4%
-  from last month
+        <div class="data__grafo">
+          <small class="noactive">$17.45</small>
+          <div class="grafo"></div>
+          <p class="day">mon</p>
+        </div>
+
+        <div class="data__grafo">
+          <small class="noactive">$34.91</small>
+          <div class="grafo grafo-2"></div>
+          <p class="day">tue</p>
+        </div>
+
+        <div class="data__grafo">
+          <small class="noactive">$52.36</small>
+          <div class="grafo grafo-3"></div>
+          <p class="day">wed</p>
+        </div>
+
+        <div class="data__grafo">
+          <small class="noactive">$31.07</small>
+          <div class="grafo grafo-4"></div>
+          <p class="day">thu</p>
+        </div>
+
+        <div class="data__grafo">
+          <small class="noactive">$23.39</small>
+          <div class="grafo grafo-5"></div>
+          <p class="day">fri</p>
+        </div>
+
+        <div class="data__grafo">
+          <small class="noactive">$43.28</small>
+          <div class="grafo grafo-6"></div>
+          <p class="day">sat</p>
+        </div>
+
+        <div class="data__grafo">
+          <small class="noactive">$25.48</small>
+          <div class="grafo grafo-7"></div>
+          <p class="day">sun</p>
+        </div>
+
+      </div>
+
+      <div class="data__month">
+        <div class="month">
+          <p class="month__p">Total this month</p>
+          <h4 class="month__h4">$478.33</h4>
+        </div>
+        <div class="month-2">
+          <p class="month-2-p">+2.4%</p>
+          <p class="month__p">from last month</p>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
   
-  <div class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    Coded by <a href="https://gaston-recalde-portafolio.netlify.app" target="_blank">Gastón Recalde</a>.
+  </footer>
+
+  <script src="./app.js"></script>
 </body>
 </html>
