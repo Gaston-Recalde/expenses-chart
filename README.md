@@ -15,11 +15,11 @@ This is a solution to the [Expenses chart component challenge on Frontend Mentor
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/expenses-chart.png)
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://precious-zabaione-d2989c.netlify.app/)
 
 ## My process
 
